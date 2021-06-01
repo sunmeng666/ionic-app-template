@@ -1,0 +1,16 @@
+<ion-content>
+  <div class="login-content ion-justify-content-center ion-padding-horizontal">
+    <div class="login-center ion-padding">
+      <ion-item class="ion-padding-bottom">
+        <ion-icon name="person" color="medium"></ion-icon>
+        <ion-input placeholder="账号" type="text" color="medium" [(ngModel)]="username"></ion-input>
+      </ion-item>
+
+      <ion-item class="ion-padding-bottom">
+        <ion-icon name="key" color="medium"></ion-icon>
+        <ion-input placeholder="密码" type="password" color="medium" [(ngModel)]="password"></ion-input>
+      </ion-item>
+      <ion-button class="login-button" expand="block" (click)="login()">登录</ion-button>
+    </div>
+  </div>
+</ion-content>

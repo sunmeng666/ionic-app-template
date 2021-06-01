@@ -1,0 +1,13 @@
+.login-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: rgb(56 128 255 / 5%);
+  .login-center {
+    height: 240px;
+    width: 90%;
+    margin-top: 40%;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+}

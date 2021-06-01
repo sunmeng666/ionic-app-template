@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "湃星云",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

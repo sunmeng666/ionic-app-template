@@ -1,0 +1,12 @@
+{
+  "name": "ionic-app-template",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {
+      "enabled": false
+    }
+  },
+  "type": "angular"
+}
